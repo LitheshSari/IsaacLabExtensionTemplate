@@ -55,6 +55,16 @@ known_isaaclabparty = [
     "isaaclab_rl"
 ]
 
+extraPaths = [
+    "${workspaceFolder}/source",
+    "/home/pan/RL/IsaacLab/source/isaaclab_tasks",
+    "/home/pan/RL/IsaacLab/source/isaaclab_mimic",
+    "/home/pan/RL/IsaacLab/source/extensions",
+    "/home/pan/RL/IsaacLab/source/isaaclab_assets",
+    "/home/pan/RL/IsaacLab/source/isaaclab_rl",
+    "/home/pan/RL/IsaacLab/source/isaaclab",
+]
+
 # Modify the following to include the package names of your first-party code
 known_firstparty = "ext_template"
 known_local_folder = "config"
